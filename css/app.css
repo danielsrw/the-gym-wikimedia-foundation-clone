@@ -1,0 +1,179 @@
+body {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 60px;
+}
+/* Navbar */
+.row {
+  padding: 0 10%;
+}
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-logo img {
+  max-height: 30px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.search-form {
+  margin-right: 10px;
+}
+
+.search-form input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.language-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.donate-button {
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+/* List Nav */
+.header {
+  text-align: center;
+  background: white;
+  padding: 20px;
+}
+
+.navigation {
+  display: inline-block;
+}
+
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  display: inline-block;
+  padding: 4px;
+  margin: 0 10px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+
+.nav-menu li:hover {
+  background: gray;
+}
+
+.nav-menu li a:hover {
+  color: white;
+}
+
+/* Hero */
+.jumbotron {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/021/116/373/original/happy-africa-day-on-25-may-illustration-with-culture-african-tribal-figures-in-flat-cartoon-hand-drawn-for-web-banner-or-landing-page-templates-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+}
+
+.jumbotron-content {
+  background-color: orange;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.jumbotron-content h1 a {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.jumbotron-content h1 a:hover {
+  text-decoration: underline;
+}
+
+/* About */
+.section-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.left, .right {
+  flex-basis: 50%;
+}
+
+.right {
+  flex-basis: 45%;
+  text-align: left;
+}
+
+.right h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.donate-button2 {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.donate-button i {
+  margin-right: 5px;
+}
+
+/* Language Nav */
+.lang-nav {
+  text-align: center;
+}
+
+.lang-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lang-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.lang-list li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: blue;
+  font-weight: 500;
+}
+
+.lang-list li.active a {
+  color: black;
+}
