@@ -177,3 +177,32 @@ body {
 .lang-list li.active a {
   color: black;
 }
+
+/* Card  */
+.card-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.card {
+  flex-basis: 25%;
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+}
+
+.card h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-details {
+  font-size: 14px;
+  color: #888;
+}
