@@ -482,3 +482,53 @@ body {
   padding: 0 100px;
   text-align: center;
 }
+
+/* Donate  */
+.post_1 {
+  background-color: #f0f0f0;
+  padding: 30px;
+  margin-top: 60px;
+}
+
+.post_1 h1 {
+  font-size: 24px;
+}
+
+.post_1-container {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.post_1-left {
+  flex-basis: 30%;
+  padding-left: 20px;
+}
+
+.post_1-title {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.post_1-title a {
+  text-decoration: none;
+  color: black;
+}
+
+.post_1-title a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.post_1-description {
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.post_1-right {
+  flex-basis: 40%;
+}
+
+.post_1-right img {
+  width: 100%;
+  height: auto;
+}
